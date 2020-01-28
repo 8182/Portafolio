@@ -1,7 +1,6 @@
 header{
-background-image: url('./fondo.jpg');
+background-image: url('./fondo_portafolio.jpg');
 background-repeat: no-repeat;
-background-attachment: fixed;
 background-size: cover;
 background-position: center center;
 padding-bottom: 10rem;
