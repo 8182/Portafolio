@@ -1,0 +1,23 @@
+header{
+background-image: url('./fondo.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-position: center center;
+padding-bottom: 10rem;
+padding-top: 3%;
+margin-top: 3%;
+}
+#exp{
+    font-family: 'Courier Prime', monospace;
+}
+#media a{
+    text-decoration: none;
+    color: black;
+}
+#jumbo{
+    font-family: 'Courier Prime', monospace;
+}
+#trab{
+    font-family: 'Girassol', cursive;
+}

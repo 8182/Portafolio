@@ -1,0 +1,93 @@
+<!-- Desarrollado por Brayan Valdenito -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Portafolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+        <nav class="navbar">
+            <a class="navbar-brand" href="#"> </a>
+            <img src="bold.png">
+        </nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#jumbo">Sobre mi <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#exp">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#trab">Trabajos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Jumbotron -->
+    <header id="jumbo"> 
+        <div class="jumbotron text-center bg-transparent" ><br>
+            <h1 class="display-3">Yo Soy</h1>
+            <p class="display-4" id="yo">Brayan Valdenito</p>
+        </div>
+    </header>
+    <!-- Experiencia -->
+    <div class="container text-center" id="exp">
+        <div class="row">
+            <h2 class="display-2 fonr-weight-bold text-center mx-auto my-5">mi experiencia</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fab fa-python fa-10x my-3"></i>
+                    <h3 class="my-3"></h3>
+                    <h3>Python</h3>
+                    <p Class="my-3">Conocimientos de python orientados a la programacion robotica</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-laptop-code fa-10x my-3"></i>
+                    <h3 class="my-3">Programador</h3>
+                    <p>Desarrollo como programador en Rubik and Reils,conocimientos de tecnologias Git</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Trabajos -->
+    <div class="bg-info text-center" id="trab">
+        <h2 class="display-2 fonr-weight-bold text-center mx-auto my-5">Mis ultimos trabajos</h2>
+        <img src="./Assets - Prueba/img/cuppon.png" class="img-fluid max-width: 100%; and height: auto; pb-4 pr-4" >
+        <img src="./Assets - Prueba/img/iguana_page.png" class="img-fluid max-width: 100%; and height: auto; pb-4 pr-4" >
+        <img src="./Assets - Prueba/img/meet_coffee.png"class="img-fluid max-width: 100%; and height: auto; pb-4 pr-4" >
+        <img src="./Assets - Prueba/img/ricomida.png"class="img-fluid max-width: 100%; and height: auto; pb-4 pr-4" >
+        <img src="./Assets - Prueba/img/suricata.png"class="img-fluid max-width: 100%; and height: auto; pb-3 pr-4" >
+        <img src="./Assets - Prueba/img/dmark.png"class="img-fluid max-width: 100%; and height: auto; pb-4 pr-4" >
+    </div>
+    <!-- Contacto -->
+    <div id="contacto"> 
+        <h2 class="display-2 fonr-weight-bold text-center mx-auto my-5">Contacto</h2>
+        <div class="typeform-widget" data-url="https://brayanvaldebenito.typeform.com/to/VTZ5IF" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=VTZ5IF&utm_source=typeform.com-15196652-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+    </div>
+    <!-- Social webs -->
+    <footer>
+        <div id="media" class="bg-info text-center">
+            <b class="display-3 fonr-weight-bold  mx-auto my-5">Sigueme en:</b> <br><br>
+            <a href="https://github.com/8182" target="_blank"><i class="fab fa-github fa-5x pr-3 pl-3"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-5x pr-3 pl-3"></i>
+            <a href="https://cl.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-5x pr-3 pl-3"></i>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-5x pr-3 pl-3"></i>
+        </div>
+    </footer>
+</body>
+</html>
